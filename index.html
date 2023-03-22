@@ -1,0 +1,134 @@
+<html>
+<head>
+
+
+<style>
+  p{
+    color:blueviolet;
+    font-style:italic;
+    size:30px;
+  }
+h1{
+  color:blue;
+  font-size:50;
+  color:brown;
+}
+
+*{
+  font-size:12;
+  font-family:courier new',courier,monospace;
+  font-style:italic;
+  background-color:pink;
+}
+
+.belleza{
+  color:bisque;
+  font-style:italic;
+  size:30px;
+}
+
+.red{
+  color:bisque;
+  font-style:italic;
+  size:30px;
+}
+
+p{
+  color:purple;
+  font-size:16px;
+  font-family:verdana;
+}
+
+.imagenes-de-gatos{
+  width:200px;
+  border-width:5px;
+  border-color:black;
+  border-style:double;
+}
+
+.bordes-redondeados{
+  border-radius:30px;
+}
+
+div{
+  background-color:aqua;
+}
+
+# titulo-app{
+font-size:30px;
+color:blue;
+font-family:courier new',courier,monospace;
+}
+
+</style>
+
+
+<title> Uso de formularios </title>
+</head> 
+<body bgcolor="FBF3AA">
+<main>
+<center><h2 id="titulo-app">APLICACION DE GATOS</h2></center>
+
+
+<H3>IMAGENES DE GATOS </H3>
+
+<P>HAZ CLICK AQUI PARA VER <a href="file:///C:/Users/Equipo/Desktop/Ashley/imagenes.html" target="_blank" rel="nooper noreferrer">IMAGENES DE GATOS.</a></P>
+ <a href="file:///C:/Users/Equipo/Desktop/Ashley/imagenes.html" target="_blank" rel="nooper noreferrer"><IMG SRC="https://www.bunko.pet/__export/1619479458417/sites/debate/img/2021/04/26/curiosidades_de_los_gatos_crop1619478790261.jpg_1532751094.jpg" class="imagenes-de-gatos" clas="bordes-redondeados" width="250" height="250"></a>
+
+  <a href="file:///C:/Users/Equipo/Desktop/Ashley/imagenes.html" target="_blank" rel="nooper noreferrer"><IMG SRC="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory&fname=http%3A%2F%2Fcfile4.uf.tistory.com%2Fimage%2F2539214E5792D314151980"  class="imagenes-de-gatos" width="250" height="250"></a>
+  <a href="#" target="_blank" rel="nooper noreferrer"><IMG SRC="https://i.pinimg.com/736x/90/bc/52/90bc520d2dc5549ee8b498e02d903162.jpg" class="imagenes-de-gatos" width="250" height="250"></a>
+  <a href="#" target="_blank" rel="nooper noreferrer"><IMG SRC="https://i.pinimg.com/474x/7c/b3/03/7cb303d4fbe04949172b51da43c6f78e.jpg" class="imagenes-de-gatos" width="250" height="250"></a>
+  <a href="#" target="_blank" rel="nooper noreferrer"><IMG SRC="https://th.bing.com/th/id/R.96d3a04d8ae2649e5d9234b4c1365271?rik=XUtGt%2bOMLae2ug&pid=ImgRaw&r=0" class="imagenes-de-gatos" width="250" height="250"></a> 
+     <hr>
+     <div>
+     <h3><em>LISTAS DE GATOS</em></h3>
+     
+      <P>Cosas que los gatos <strong>aman:</strong></P>
+        <Ul class="lista-de-gatos"> 
+         <li>Menta gatuna</li> 
+         <li>Apuntadores laser</li> 
+          <li><s>Lasaña</s></li>
+        </Ul> 
+  <a href="#" target="_blank" rel="nooper noreferrer"></a> <img src="https://th.bing.com/th/id/OIP.RtEkvYkKLwqEsLBqyH_NowHaEK?pid=ImgDet&rs=1" class="imagenes-de-gatos" width="250" height="250"> </a>
+
+   <p>Cosas que los gatos <strong>odian:</strong></p>
+        <ol>
+         <li>Tratamientos Antipulgas</li> 
+         <li>Truenos</li>
+         <li>Perros</li> 
+         </ol>
+    
+
+   <a href="#" target="_blank" rel="nooper noreferrer"></a><img src="https://th.bing.com/th/id/OIP.zBbFyNMbueVRmOzVOjdEPAHaEo?pid=ImgDet&rs=1" class="imagenes-de-gatos" width="250" height="250"></a> 
+ </div>
+
+     <HR> 
+     <form action ="/Enviar-respuesta">
+     <label for="interior"> <input id="interior" type = "radio" value="interior" name="interior-exterior" checked>Interior </label> <br> 
+     <label for="exterior"> <input id="exterior" type = "radio" value="exterior" name="interior-exterior"> Exterior </label> <br>
+     <label for="centro"> <input id="centro" type = "radio" value="centro" name="interior-exterior"> centro </label> <br> 
+
+     <h3>¿Como es tu gato?</h3> 
+     <label for="cariñoso"><input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad" checked>Cariñoso</label><br> 
+     <label for="perezoso"><input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso</label><br> 
+     <label for="energico"><input id="energetico" type="checkbox" value="energico" name="personalidad">Energico</label><br>
+
+     <h1></h1> <input type="text" placeholder="Enviar respuesta" required> <button type="submit">Enviar</button> <button type="reset">Vaciar</button>
+
+     <h3>¿Que le gusta a tu gato ?</h3> <label for="cariñoso"><input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad" checked>pelotas</label><br>
+     <label for="perezoso"><input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Ratones</label><br> 
+     <label for="energico"><input id="energetico" type="checkbox" value="energico" name="personalidad">Lana</label><br>
+     
+     <h1></h1> 
+   <input type="text" placeholder="Enviar respuesta" required> <button type="submit">Enviar</button> <button type="reset">Vaciar</button> 
+             	    	    
+    <h3>¿Que tipo de vacuna tiene su mascota?</h3> 
+    <label for="perezoso"><input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Vacuna trivalente </label><br> 
+    <label for="cariñoso"><input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad" checked>Leucemia felina </label><br> 
+    <h1></h1>
+    <input type="text" placeholder="Enviar respuesta" required> <button type="submit">Enviar</button> <button type="reset">Vaciar</button>
+        </form> 
+        </main> 
+        </body>
+        <footer> 
+            <p><small>Sin derechos de autor -<a href="#">freecodecamp</small></a></p> </footer>
